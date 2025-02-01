@@ -20,6 +20,8 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'card-02': '#102861',
+                'card-01': '#115414',
                 'paragraph-bg': '#FFFFFF',
                 'register-button': '#179800',
               }
@@ -56,11 +58,7 @@
                      
                       <li><a>Services</a></li>
                       <li><a>Contact us</a></li>
-                      <li><a><img src="images/Frame 6.png" alt=""></a></li>
-                      <li><a><img src="images/Group (1).png" alt=""></a></li>
-                      <li><a><button class="px-7 py-1 rounded-lg border border-[#179800]">Login</button></a></li>
-                      <li><a>                        <button class="px-7 py-1 rounded-lg bg-register-button text-white">Register</button>
-                      </a></li>
+
 
 
 
@@ -90,7 +88,95 @@
      </header>
      <!-- Main Section -->
       <main>
-        <section>
+        <!-- Hero Section -->
+        <Section class="my-5">
+            <!-- Hero Text Section -->
+            <div class="flex flex-col items-center gap-8">
+                <h1 class="font-semibold text-5xl w-1/2 text-center ">
+                    Freshness <span class="text-green-500 text-center">You Can</span>
+                    <br>
+                    <span class="text-green-500">Count On,</span> Prices You’ll Love!
+                </h1>
+                <p class="font-normal w-1/2 text-center text-slate-500">
+                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!  
+                </p>
+                <img src="images/hero-vegetables.png" alt="">
+
+            </div>
+            <!-- Hero Image Section -->
+            <!-- <div class="flex items-center">
+                <img src="c2-assets/hero-vegetables.png" alt="">
+
+            </div> -->
+
+        </Section>
+
+    </Header>
+    <!-- This is Main Section -->
+    <main class="md:container md:mx-auto">
+        <!-- Service Section -->
+     <Section class="mx-auto">
+        <div class="md:ml-32">
+            <h1 class="font-semibold text-4xl text-green-500">Services</h1>
+         </div>
+         <!-- Service Card Section -->
+         <div class=" mb-4 mt-8  grid grid-cols-1 md:grid-cols-3 gap-4 w-300 h-200 mx-auto mt-10">
+            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl">
+                <img src="images/service.png" alt="">
+                <h1 class="font-semibold">24/7 Services </h1>
+                <p>Available 24/7 for reliable, fast, and hassle-free service anytime, anywhere</p>
+            </div>
+            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl">
+                <img src="images/delivery.png" alt="">
+                <h1 class="font-semibold">Fast Delivery</h1>
+                <p>Fast and reliable delivery—get your essentials at your doorstep in no time!</p>
+            </div>
+            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl">
+                <img src="images/healthy.png" alt="">
+                <h1 class="font-semibold">Healthy Products</h1>
+                <p>Fresh, natural, and healthy products for a better, happier you. Nutritious & organic </p>
+            </div>
+    
+         </div>
+     </Section>
+<!-- Arrival & Offers -->
+
+<section class="my-4 bg-white md:container mx-auto">
+  <h2 class="p-4 md:p-8 text-register-button text-3xl lg:text-5xl font-semibold">Arrival & Offers</h2>
+<section class="grid grid-cols-1 gap-2 lg:grid-cols-2 gap-4">
+  <section class="flex-auto grid grid-cols-2 bg-[#115414] py-6 rounded-xl">
+    <div><img class="p-2" src="images/dawat-logo.png" alt="">
+    <img class="p-3" src="images/Frame 22 (1).png" alt="">
+  <p class="text-4xl lg:text-6xl text-[#FFFFFF] p-3 lg:p-4">UP to 20% OFF</p> </div>
+  <div class="p-2"> <img src="images/dawat-mock-up.png" alt=""></div>
+  
+
+
+
+  </section>
+<!-- card-2 -->
+<section class="flex-auto grid grid-cols-2 bg-[#102861] py-6 rounded-xl">
+  <div><img class="p-2" src="images/india-gate-logo.png" alt="">
+    <img class="p-3" src="images/Frame 22 (1).png" alt="">
+    <p class="text-4xl lg:text-6xl text-[#FFFFFF] p-3 lg:p-4">UP to 40% OFF</p> </div>
+    <div class="p-2"> <img src="images/india-gate-mock-up.png" alt=""></div>
+  
+
+</section>
+
+</section>  
+<!-- Card-1 -->
+   
+
+</div>
+   <!-- card-2 -->
+    <div class="bg-[#102861]"> </div>
+</div>
+</section>
+      </main>
+      <!-- Footer section -->
+      <!-- <footer class="relative footer bg-register-button text-base-content p-10">  
+        <section class="px-[102px] absolute right-[140px] top-[20px]">
             <div class="card lg:card-side justify-center bg-base-100 shadow-xl">
                 <figure>
                   <img
@@ -106,16 +192,15 @@
                 </div>
               </div>
         </section>
-      </main>
-      <!-- Footer section -->
-      <footer class="footer bg-register-button text-base-content p-10"> 
+
+        <section class="md:container mx-auto grid md:grid-cols-3">
         <nav>
-          <div class="md:pl-4">
+          
             <div class="p-4"><img src="images/logo-footer.png" alt=""></div>
             <p class="text-paragraph-bg text-xl">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br>friends</p>
-          </div>
+          
         </nav>
-        <nav>
+        <nav class="grid grid-rows-3 md:grid-cols-3">
             
           
           <a class="link link-hover text-paragraph-bg text-xl">Product</a>
@@ -159,6 +244,7 @@
           </div>
         </nav>
         </div>
-      </footer>    
+        </section>
+      </footer>    -->
 </body>
 </html>
