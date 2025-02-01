@@ -4,328 +4,375 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nature Platter</title>
-    <!-- Google font  -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
-    <!-- Daisyui cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-        .font-Sora{font-family: "Sora", serif;}
-    </style>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-                'card-02': '#102861',
-                'card-01': '#115414',
-                'paragraph-bg': '#FFFFFF',
-                'register-button': '#179800',
-              }
-            }
+  <!-- Google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap"
+    rel="stylesheet">
+  <!-- Daisyui cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .font-Sora {
+      font-family: "Sora", serif;
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'card-02': '#102861',
+            'card-01': '#115414',
+            'paragraph-bg': '#FFFFFF',
+            'register-button': '#179800',
           }
         }
-      </script>
+      }
+    }
+  </script>
 </head>
+
 <body class="font-Sora">
-    <!-- Header Section -->
-     <header class="lg:container mx-auto">
-        <nav>
-            <div class="navbar bg-base-100">
-                <div class="navbar-start">
-                  <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        class="h-5 w-5"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor">
-                        <path
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M4 6h16M4 12h8m-8 6h16" />
-                      </svg>
-                    </div>
-                    <ul
-                      tabindex="0"
-                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                      <li><a>Product</a></li>
-                     
-                      <li><a>Services</a></li>
-                      <li><a>Contact us</a></li>
-
-
-
-
-                    </ul>
-                  </div>
-                  <div><img src="images/logo-header.png" alt=""></div>
-                </div>
-                <div class="navbar-center hidden md:flex">
-                  <ul class="menu menu-horizontal px-1">
-                    <li><a>Product</a></li>
-                    
-                    <li><a>Services</a></li>
-                    <li><a>Contact us</a></li> 
-                    
-                    <li><a><img src="images/Frame 6.png" alt=""></a></li>
-                    <li><a><img src="images/Group (1).png" alt=""></a></li>
-                    <li><a><button class="px-7 py-1 rounded-lg border border-[#179800]">Login</button></a></li>
-                    <li><a>                        <button class="px-7 py-1 rounded-lg bg-register-button text-white">Register</button>
-                    </a></li>
-                  
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                    </div>
-                    </div>
-        </nav>
-     </header>
-     <!-- Main Section -->
-      <main>
-        <!-- Hero Section -->
-        <Section class="my-5">
-            <!-- Hero Text Section -->
-            <div class="flex flex-col items-center gap-8">
-                <h1 class="font-semibold text-5xl w-1/2 text-center ">
-                    Freshness <span class="text-green-500 text-center">You Can</span>
-                    <br>
-                    <span class="text-green-500">Count On,</span> Prices You’ll Love!
-                </h1>
-                <p class="font-normal w-1/2 text-center text-slate-500">
-                    Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!  
-                </p>
-                <img src="images/hero-vegetables.png" alt="">
-
+  <!-- Header Section -->
+  <header class="lg:container mx-auto mt-8 px-6 lg:px-0">
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
             </div>
-            <!-- Hero Image Section -->
-            <!-- <div class="flex items-center">
+            <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Product</a></li>
+
+              <li><a>Services</a></li>
+              <li><a>Contact us</a></li>
+
+            </ul>
+          </div>
+          <div><img src="images/logo-header.png" alt="" class="hidden md:flex"></div>
+        </div>
+        <div class="navbar-center hidden md:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Product</a></li>
+
+            <li><a>Services</a></li>
+            <li><a>Contact us</a></li>
+
+            <li><a><img src="images/Frame 6.png" alt=""></a></li>
+            <li><a><img src="images/Group (1).png" alt=""></a></li>
+
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <ul class="menu menu-horizontal px-1 hidden md:flex">
+            <li><a><button class="px-7 py-1 rounded-lg border border-[#179800]">Login</button></a></li>
+            <li><a><button class="px-7 py-1 rounded-lg bg-register-button text-white">Register</button></a></li>
+          </ul>
+          <div><img src="images/logo-header.png" alt="" class="flex md:hidden"></div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Main Section -->
+  <main>
+    <!-- Hero Section -->
+    <Section class="my-5">
+      <!-- Hero Text Section -->
+      <div class="flex flex-col items-center gap-8">
+        <h1 class="font-semibold text-3xl lg:text-5xl w-1/2 text-center ">
+          Freshness <span class="text-green-500 text-center">You Can</span>
+          <br>
+          <span class="text-green-500">Count On,</span> Prices You’ll Love!
+        </h1>
+        <p class="font-normal w-1/2 text-center text-slate-500">
+          Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered
+          every day!
+        </p>
+        <img src="images/hero-vegetables.png" alt="">
+
+      </div>
+      <!-- Hero Image Section -->
+      <!-- <div class="flex items-center">
                 <img src="c2-assets/hero-vegetables.png" alt="">
 
-            </div> -->
-
         </Section>
-
-    </Header>
+    </header>
     <!-- This is Main Section -->
-    <main class="md:container md:mx-auto">
+      <main class="md:container md:mx-auto">
         <!-- Service Section -->
-     <Section class="mx-6">
-        <div class="md:ml-32">
-            <h1 class="font-semibold text-4xl text-green-500">Services</h1>
-         </div>
-         <!-- Service Card Section -->
-         <div class=" mb-4 mt-8  grid grid-cols-1 md:grid-cols-3 gap-4 w-300 h-200 mx-auto mt-10">
-            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl">
-                <img src="images/service.png" alt="">
-                <h1 class="font-semibold">24/7 Services </h1>
-                <p>Available 24/7 for reliable, fast, and hassle-free service anytime, anywhere</p>
+        <Section class="mx-6 my-12">
+          <div class="">
+            <h1 class="font-semibold text-4xl text-green-500 text-center">Services</h1>
+          </div>
+          <!-- Service Card Section -->
+          <div class="mb-4  grid grid-cols-1 md:grid-cols-3 gap-4 w-300 h-200 mx-auto">
+            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl hover:scale-105">
+              <img src="images/service.png" alt="">
+              <h1 class="font-semibold">24/7 Services </h1>
+              <p>Available 24/7 for reliable, fast, and hassle-free service anytime, anywhere</p>
             </div>
-            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl">
-                <img src="images/delivery.png" alt="">
-                <h1 class="font-semibold">Fast Delivery</h1>
-                <p>Fast and reliable delivery—get your essentials at your doorstep in no time!</p>
+            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl hover:scale-105">
+              <img src="images/delivery.png" alt="">
+              <h1 class="font-semibold">Fast Delivery</h1>
+              <p>Fast and reliable delivery—get your essentials at your doorstep in no time!</p>
             </div>
-            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl">
-                <img src="images/healthy.png" alt="">
-                <h1 class="font-semibold">Healthy Products</h1>
-                <p>Fresh, natural, and healthy products for a better, happier you. Nutritious & organic </p>
+            <div class="bg-[#EFEBE3] mt-14 grid place-items-center text-center p-6 rounded-3xl hover:scale-105">
+              <img src="images/healthy.png" alt="">
+              <h1 class="font-semibold">Healthy Products</h1>
+              <p>Fresh, natural, and healthy products for a better, happier you. Nutritious & organic </p>
             </div>
-    
-         </div>
-     </Section>
-<!-- popolar products  -->
- <section class="my-4 w-full bg-[#EFEBE3]">
-  <h2 class="text-register-button font-semibold py-8 px-3 text-3xl lg:text-5xl">Popular Products</h2>
-  <section class="flex-auto grid grid-cols-1 lg:grid-cols-2 gap-3">
-    <section class="bg-gradient-to-r from-green-500 to-green-50">
-      
-      <h3 class="text-[#FFFFFF] text-3xl font-semibold py-8 px-8">30% OFF</h3>
-      <p class="text-black text-2xl pl-4 pb-4">Discover a world of treats,toys and <br> essentials handpicked for</p>
-    <button class="text-black bg-white px-4 py-4 mx-6 my-12 rounded-xl">Buy Now</button>
-    <img class="ml-50" src="images/vegetable-offer.png" alt="">
 
-  </section>
-  <!-- card section -->
-   <section class="grid grid-cols-3 grid-rows-3 gap-1">
-    <!-- onion card -->
-    <section class="bg-white grid grid-cols-2 gap-2 p-4">
-      <div class=" bg-[#EFEBE3] row-span-3"><img src="images/onion.png" alt=""> </div>
-      <div><h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4></div>
-    <div><h5>Onion 1kg</h5></div>
-  <div><p>$39.99</p></div>
-  
-   </section>
-    <!-- Tomato card -->
-    <section class="bg-white grid grid-cols-2 gap-2 p-4">
-      <div class=" bg-[#EFEBE3] row-span-3"><img src="images/tomato.png" alt=""> </div>
-      <div><h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4></div>
-    <div><h5>Tomato 1kg</h5></div>
-  <div><p>$39.99</p></div>
-  
-   </section>
-    <!-- Potato card -->
-    <section class="bg-white grid grid-cols-2 gap-2 p-4">
-      <div class=" bg-[#EFEBE3] row-span-3"><img src="images/potato.png" alt=""> </div>
-      <div><h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4></div>
-    <div><h5>Potato 1kg</h5></div>
-  <div><p>$39.99</p></div>
-  
-   </section>
-    <!-- Tomato card -->
-    <section class="bg-white grid grid-cols-2 gap-2 p-4">
-      <div class=" bg-[#EFEBE3] row-span-3"><img src="images/tomato.png" alt=""> </div>
-      <div><h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4></div>
-    <div><h5>Tomato 1kg</h5></div>
-  <div><p>$39.99</p></div>
-  
-   </section>
-    <!-- onion card -->
-    <section class="bg-white grid grid-cols-2 gap-2 p-4">
-      <div class=" bg-[#EFEBE3] row-span-3"><img src="images/onion.png" alt=""> </div>
-      <div><h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4></div>
-    <div><h5>Onion 1kg</h5></div>
-  <div><p>$39.99</p></div>
-  
-   </section>
-    <!-- Tomato card -->
-    <section class="bg-white grid grid-cols-2 gap-2 p-4">
-      <div class=" bg-[#EFEBE3] row-span-3"><img src="images/tomato.png" alt=""> </div>
-      <div><h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4></div>
-    <div><h5>Tomato 1kg</h5></div>
-  <div><p>$39.99</p></div>
-  
-   </section>
-    <!-- onion card -->
-    <section class="bg-white grid grid-cols-2 gap-2 p-4">
-      <div class=" bg-[#EFEBE3] row-span-3"><img src="images/onion.png" alt=""> </div>
-      <div><h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4></div>
-    <div><h5>Onion 1kg</h5></div>
-  <div><p>$39.99</p></div>
-  
-   </section>
-    <!-- Potato card -->
-    <section class="bg-white grid grid-cols-2 gap-2 p-4">
-      <div class=" bg-[#EFEBE3] row-span-3"><img src="images/potato.png" alt=""> </div>
-      <div><h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4></div>
-    <div><h5>Potato 1kg</h5></div>
-  <div><p>$39.99</p></div>
-  
-   </section>
-    <!-- Potato card -->
-    <section class="bg-white grid grid-cols-2 gap-2 p-4">
-      <div class=" bg-[#EFEBE3] row-span-3"><img src="images/potato.png" alt=""> </div>
-      <div><h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4></div>
-    <div><h5>Potato 1kg</h5></div>
-  <div><p>$39.99</p></div>
-  
-   </section>
-  </section>
- </section>
-<!-- Arrival & Offers -->
+          </div>
+               
+        </Section>
+        <!-- popolar products  -->
+        <section class="my-4 w-full bg-[#EFEBE3]">
+          <h2 class="text-register-button font-semibold py-8 px-3 text-3xl lg:text-5xl">Popular Products</h2>
+          <section class="flex-auto grid grid-cols-1 lg:grid-cols-2 gap-3">
+            <section class="bg-gradient-to-r from-green-500 to-green-50">
 
-<section class="my-8 bg-white md:container mx-auto">
-  <h2 class="p-4 md:p-8 text-register-button text-3xl lg:text-5xl font-semibold">Arrival & Offers</h2>
-<section class="grid grid-cols-1 gap-2 lg:grid-cols-2 gap-4">
-  <section class="flex-auto grid grid-cols-2 bg-[#115414] py-6 rounded-xl">
-    <div><img class="p-2" src="images/dawat-logo.png" alt="">
-    <img class="p-3" src="images/Frame-30.png" alt="">
-  <p class="text-4xl lg:text-6xl text-[#FFFFFF] p-3 lg:p-4">UP to 20% OFF</p> </div>
-  <div class="p-2"> <img src="images/dawat-mock-up.png" alt=""></div>
-  
+              <h3 class="text-[#FFFFFF] text-3xl font-semibold py-8 px-8">30% OFF</h3>
+              <p class="text-black text-2xl pl-4 pb-4">Discover a world of treats,toys and <br> essentials handpicked
+                for</p>
+              <button class="text-black bg-white px-4 py-4 mx-6 my-12 rounded-xl">Buy Now</button>
+              <img class="ml-50" src="images/vegetable-offer.png" alt="">
+
+            </section>
+            <!-- card section -->
+            <section class="grid grid-cols-3 grid-rows-3 gap-1">
+              <!-- onion card -->
+              <section class="bg-white grid grid-cols-2 gap-2 p-4">
+                <div class=" bg-[#EFEBE3] row-span-3"><img src="images/onion.png" alt=""> </div>
+                <div>
+                  <h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4>
+                </div>
+                <div>
+                  <h5>Onion 1kg</h5>
+                </div>
+                <div>
+                  <p>$39.99</p>
+                </div>
+
+              </section>
+              <!-- Tomato card -->
+              <section class="bg-white grid grid-cols-2 gap-2 p-4">
+                <div class=" bg-[#EFEBE3] row-span-3"><img src="images/tomato.png" alt=""> </div>
+                <div>
+                  <h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4>
+                </div>
+                <div>
+                  <h5>Tomato 1kg</h5>
+                </div>
+                <div>
+                  <p>$39.99</p>
+                </div>
+
+              </section>
+              <!-- Potato card -->
+              <section class="bg-white grid grid-cols-2 gap-2 p-4">
+                <div class=" bg-[#EFEBE3] row-span-3"><img src="images/potato.png" alt=""> </div>
+                <div>
+                  <h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4>
+                </div>
+                <div>
+                  <h5>Potato 1kg</h5>
+                </div>
+                <div>
+                  <p>$39.99</p>
+                </div>
+
+              </section>
+              <!-- Tomato card -->
+              <section class="bg-white grid grid-cols-2 gap-2 p-4">
+                <div class=" bg-[#EFEBE3] row-span-3"><img src="images/tomato.png" alt=""> </div>
+                <div>
+                  <h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4>
+                </div>
+                <div>
+                  <h5>Tomato 1kg</h5>
+                </div>
+                <div>
+                  <p>$39.99</p>
+                </div>
+
+              </section>
+              <!-- onion card -->
+              <section class="bg-white grid grid-cols-2 gap-2 p-4">
+                <div class=" bg-[#EFEBE3] row-span-3"><img src="images/onion.png" alt=""> </div>
+                <div>
+                  <h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4>
+                </div>
+                <div>
+                  <h5>Onion 1kg</h5>
+                </div>
+                <div>
+                  <p>$39.99</p>
+                </div>
+
+              </section>
+              <!-- Tomato card -->
+              <section class="bg-white grid grid-cols-2 gap-2 p-4">
+                <div class=" bg-[#EFEBE3] row-span-3"><img src="images/tomato.png" alt=""> </div>
+                <div>
+                  <h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4>
+                </div>
+                <div>
+                  <h5>Tomato 1kg</h5>
+                </div>
+                <div>
+                  <p>$39.99</p>
+                </div>
+
+              </section>
+              <!-- onion card -->
+              <section class="bg-white grid grid-cols-2 gap-2 p-4">
+                <div class=" bg-[#EFEBE3] row-span-3"><img src="images/onion.png" alt=""> </div>
+                <div>
+                  <h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4>
+                </div>
+                <div>
+                  <h5>Onion 1kg</h5>
+                </div>
+                <div>
+                  <p>$39.99</p>
+                </div>
+
+              </section>
+              <!-- Potato card -->
+              <section class="bg-white grid grid-cols-2 gap-2 p-4">
+                <div class=" bg-[#EFEBE3] row-span-3"><img src="images/potato.png" alt=""> </div>
+                <div>
+                  <h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4>
+                </div>
+                <div>
+                  <h5>Potato 1kg</h5>
+                </div>
+                <div>
+                  <p>$39.99</p>
+                </div>
+
+              </section>
+              <!-- Potato card -->
+              <section class="bg-white grid grid-cols-2 gap-2 p-4">
+                <div class=" bg-[#EFEBE3] row-span-3"><img src="images/potato.png" alt=""> </div>
+                <div>
+                  <h4 class="flex"><img src="images/Vector.png" alt=""> 4.5</h4>
+                </div>
+                <div>
+                  <h5>Potato 1kg</h5>
+                </div>
+                <div>
+                  <p>$39.99</p>
+                </div>
+
+              </section>
+            </section>
+          </section>
+          <!-- Arrival & Offers -->
+
+          <section class="my-8 bg-white container mx-auto px-6 lg:px-0">
+            <h2 class="p-6 text-register-button text-3xl lg:text-5xl font-semibold text-center py-10">Arrival & Offers
+            </h2>
+
+            <section class="flex flex-col lg:flex-row justify-between gap-8 lg:grid-cols-2">
+              <section class="flex-auto grid grid-cols-2 bg-[#115414] py-6 rounded-xl w-full">
+                <div><img class="p-2" src="images/dawat-logo.png" alt="">
+                  <img class="p-3" src="images/Frame-30.png" alt="">
+                  <p class="text-4xl lg:text-6xl text-[#FFFFFF] p-3 lg:p-4">UP to 20% OFF</p>
+                </div>
+                <div class="p-2"> <img src="images/dawat-mock-up.png" alt="">
+                </div>
+
+              </section>
+
+              <!-- card-2 -->
+              <section class="flex-auto grid grid-cols-2 bg-[#102861] py-6 rounded-xl lg:w-3/4">
+                <div><img class="p-2" src="images/india-gate-logo.png" alt="">
+                  <img class="p-3" src="images/Frame 22 (1).png" alt="">
+                  <p class="text-4xl lg:text-6xl text-[#FFFFFF] p-3 lg:p-4">UP to 40% OFF</p>
+                </div>
+                <div class="p-2"> <img src="images/india-gate-mock-up.png" alt=""></div>
 
 
+              </section>
 
-  </section>
-<!-- card-2 -->
-<section class="flex-auto grid grid-cols-2 bg-[#102861] py-6 rounded-xl">
-  <div><img class="p-2" src="images/india-gate-logo.png" alt="">
-    <img class="p-3" src="images/Frame 22 (1).png" alt="">
-    <p class="text-4xl lg:text-6xl text-[#FFFFFF] p-3 lg:p-4">UP to 40% OFF</p> </div>
-    <div class="p-2"> <img src="images/india-gate-mock-up.png" alt=""></div>
-  
-
-</section>
-
-</section>  
-</section>
+            </section>
+          </section>
       </main>
       <!-- Footer section -->
-      <footer class="relative footer bg-register-button text-base-content p-10">  
-        <section class="px-[102px] absolute right-[140px] top-[20px]">
-            <div class="card lg:card-side justify-center bg-base-100 shadow-xl">
-                <figure>
-                  <img
-                    src="images/vegetable-busket.png"
-                    alt="Album" />
-                </figure>
-                <div class="card-body">
-                  <h2 class="card-title">New album is released!</h2>
-                  <p>Click the button to listen on Spotiwhy app.</p>
-                  <div class="card-actions justify-end">
-                    <button class="btn btn-primary">Listen</button>
-                  </div>
-                </div>
+      <footer
+        class="relative footer bg-register-button text-base-content px-10 pt-[150px] lg:pt-[200px] pb-10 mt-[200px] lg:mt-[250px]">
+
+        <section class="lg:px-[102px] absolute -top-[150px] lg:-top-[200px] lg:left-[420px] ">
+          <div class="card card-side justify-center bg-base-100 shadow-2xl border p-6 m-6">
+            <figure>
+              <img class="lg:w-2/3" src="images/vegetable-busket.png" alt="Album" />
+            </figure>
+            <div class="card-body p-0 lg:p-12">
+              <h2 class="card-title">New album is released!</h2>
+              <p>Click the button to listen on Spotiwhy app.</p>
+              <div class="card-actions">
+                <button class="btn btn-primary">Listen</button>
               </div>
+            </div>
+          </div>
         </section>
 
-        <section class="md:container mx-auto grid md:grid-cols-3">
-        <nav>
-          
-            <div class="p-4"><img src="images/logo-footer.png" alt=""></div>
-            <p class="text-paragraph-bg text-xl">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br>friends</p>
-          
-        </nav>
-        <nav class="grid grid-rows-3 md:grid-cols-3">
-            
-          
-          <a class="link link-hover text-paragraph-bg text-xl">Product</a>
-          <a class="link link-hover text-paragraph-bg text-xl">Services</a>
-          <a class="link link-hover text-paragraph-bg text-xl">Contact us</a>
-          
-        
-          
-        </nav>
-        <div class="pt-10">
-        <nav>
-            
-          <h6 class="footer-title text-paragraph-bg">Follow Us</h6>
-          <div class="grid grid-flow-col gap-4">
-            <img src="images/Vector.png" alt="">
-            
-            
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                class="fill-current text-white">
-                <path
-                  d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-              </svg>
-            </a>
-            <a>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                class="fill-current text-white">
-                <path
-                  d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
-              </svg>
-            </a>
-            <img src="images/Vector.png" alt="">
+        <section class="container mx-auto flex flex-col lg:flex-row gap-8 lg:justify-between">
+          <nav>
+
+            <div class="flex flex-col gap-4">
+              <img src="images/logo-footer.png" alt="" class="w-40">
+              <p class="text-paragraph-bg text-xl">Discover a world of treats, toys, and <br> essentials handpicked for
+                your furry <br>friends</p>
+            </div>
+          </nav>
+          <nav class="flex flex-col lg:gap-8">
+
+            <a class="link link-hover text-paragraph-bg text-xl">Product</a>
+            <a class="link link-hover text-paragraph-bg text-xl">Services</a>
+            <a class="link link-hover text-paragraph-bg text-xl">Contact us</a>
+
+          </nav>
+          <div class="pt-10">
+            <nav>
+
+              <h6 class="footer-title text-paragraph-bg">Follow Us</h6>
+              <div class="flex gap-4">
+                <img src="images/Vector.png" alt="">
+
+
+                <a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    class="fill-current text-white">
+                    <path
+                      d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z">
+                    </path>
+                  </svg>
+                </a>
+                <a>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                    class="fill-current text-white">
+                    <path
+                      d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z">
+                    </path>
+                  </svg>
+                </a>
+                <img src="images/Vector.png" alt="">
+              </div>
+            </nav>
           </div>
-        </nav>
-        </div>
         </section>
       </footer>
 </body>
+
 </html>
+
+    
